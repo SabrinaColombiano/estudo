@@ -1,0 +1,16 @@
+<!DOCTYPE html>          informa que é html 5
+<html lang="pt-br">        linguagem portugues
+<head>
+    <meta charset="UTF-8">        alfabeto com acentuação 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro exercicio</title>     titulo da pagina
+</head>
+<body>
+    <h1>Olá mundo!</h1>     titulo 
+    <hr>                    linha
+    <p>Esse é o primeiro documento html!</p>   paragrafo
+    <p>estou criando um site!</p>
+
+emojis  &#x e a numeração dele ex.: &#x1F596
+simbolos especiais &  ex.: &reg, &euro
