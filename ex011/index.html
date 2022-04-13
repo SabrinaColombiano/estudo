@@ -9,9 +9,24 @@
 </head>
 <body>
         <picture>
-                <source media="(max-width: 750)" srcset="foto-p" type="image/png">
-        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+            <source media="(max-width:750px)" srcset="foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
         <img src="foto-g.png" alt="A imagem flexivel funciona">
     </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir áudios em html5</p>
+    <p>Abaixo o podcast do prof Guanabara</p>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <!-- nem sempre os navegadores aceitam mp3, tenha outro como .ogg -->
+        <!-- seria a mesma linha de comando acima com o faudio ogg e no type audio/ogg -->
+    </audio>   
+    <h2>outro audio</h2>      
+    <p>clique abaixo para ouvir o audio  do Patrick Patrikios</p>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="media/Lights - Patrick Patrikios.mp3" type="audio/mpeg">
+        <!-- nem sempre os navegadores aceitam mp3, tenha outro como .ogg -->
+        <!-- seria a mesma linha de comando acima com o faudio ogg e no type audio/ogg -->
+    </audio>  
 </body>
 </html>
