@@ -17,7 +17,7 @@
     <p>Vamos aprender a reproduzir áudios em html5</p>
     <p>Obs.: Nem sempre os navegadores aceitam mp3, tenha o formato .ogg como segunda opção</p>
     <code><pre>
-        &#8249;audio&#8250; preload="metadata" autoplay controls loop 
+        &#8249;audio&#8250;preload="metadata" autoplay controls loop 
                 source src="media/guanacast-33.mp3" type="audio/mpeg"
         &#8249;/audio&#8250;
     </pre></code>
@@ -31,6 +31,13 @@
          <p>vou fazer o camarão do domingo, pois tem um mẽs que eele est a na jaladeira</p>
     <p>clique abaixo para ouvir o audio  do Patrick Patrikios, está disponível no youtube para inserir em seu video</p>
     <audio preload="metadata" autoplay controls loop> 
+        <!-- metadata : irá carrega apenas os dados basicos do audio, se vc deixar 
+            como autodata o audio será carregado por inteiro mesmo que o usuário nunca clique para 
+            ouvir, utilizando sua internet sem necessidade-->
+        <!-- controls : irá exibir o player para o usuário, sao contrario ficará transparente 
+            sem que o usuário possa interagir e ouvir-->
+        <!--Autoplay : o audio será iniciado logo que os dados da pagina são carregados-->
+        <!-- loop : tocará o audio em loop durante o acesso do usuário na página-->
         <source src="media/Lights - Patrick Patrikios.mp3" type="audio/mpeg">
     </audio>  
 </body>
