@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex010/icon-Html-5.ico" type="image/x-icon">
+    <title>Imagens Estáticas</title>
+</head>
+<body>
+        <picture>
+            <source media="(max-width:750px)" srcset="foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="A imagem flexivel funciona uau!">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir áudios em html5</p>
+    <p>Obs.: Nem sempre os navegadores aceitam mp3, tenha o formato .ogg como segunda opção</p>
+    <code><pre>
+        &#8249;audio&#8250;preload="metadata" autoplay controls loop 
+                source src="media/guanacast-33.mp3" type="audio/mpeg"
+        &#8249;/audio&#8250;
+    </pre></code>
+    <p>Abaixo o podcast do prof Guanabara</p>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+    </audio>   
+    <p>clique abaixo para ouvir o audio  do Patrick Patrikios, está disponível no youtube para inserir em seu video</p>
+    
+</body>
+</html>
